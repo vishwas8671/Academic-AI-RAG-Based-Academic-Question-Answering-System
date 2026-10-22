@@ -199,3 +199,25 @@ Interactive Swagger documentation is available at **[http://127.0.0.1:8000/docs]
 | `GET` | `/api/sessions` | List saved chat sessions |
 | `GET` | `/api/sessions/{id}/messages`| Retrieve conversation history for a session |
 | `DELETE` | `/api/sessions/{id}` | Delete a chat session |
+
+---
+
+## ☁️ Cloud Deployment (Render & Railway)
+
+Academic AI is containerized with a production multi-stage `Dockerfile` and is pre-configured for 1-click cloud deployment.
+
+### Option A: Deploy on Render (Recommended, Free)
+1. Sign in to [Render.com](https://render.com).
+2. Click **New +** -> **Web Service**.
+3. Select **Build and deploy from a Git repository** and connect:
+   `https://github.com/vishwas8671/Academic-AI-RAG-Based-Academic-Question-Answering-System`
+4. Render will auto-detect the `Dockerfile` and `render.yaml`.
+5. *(Optional)* Add your `OPENAI_API_KEY` under Environment Variables, or leave it blank to use the offline engine.
+6. Click **Deploy Web Service** to get your public HTTPS URL (e.g. `https://academic-ai.onrender.com`).
+
+### Option B: Deploy on Railway
+1. Sign in to [Railway.app](https://railway.app).
+2. Click **New Project** -> **Deploy from GitHub repo**.
+3. Select `Academic-AI-RAG-Based-Academic-Question-Answering-System`.
+4. Railway will automatically build the `Dockerfile` and deploy a live public domain.
+
