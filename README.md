@@ -2,8 +2,8 @@
 
 An intelligent, citation-grounded Retrieval-Augmented Generation (RAG) assistant designed for university students, educators, and researchers. Students can upload course syllabi, textbooks, lecture slide PDFs, and past exam papers, and query them with strictly verified, clickable inline citations.
 
-Project GitHub Repository : https://github.com/vishwas8671/Academic-AI-RAG-Based-Academic-Question-Answering-System
-Project Live Link : https://academic-ai-rag-based-academic-question.onrender.com
+- Project GitHub Repository : https://github.com/vishwas8671/Academic-AI-RAG-Based-Academic-Question-Answering-System
+- Project Live Link : https://academic-ai-rag-based-academic-question.onrender.com
 
 ---
 
